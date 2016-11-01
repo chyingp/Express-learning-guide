@@ -1,6 +1,6 @@
 ## 安装脚手架工具
 
-对于初学者来说，建议安装脚手架工具\`express-generator\`。
+对于初学者来说，建议安装脚手架工具`express-generator`。
 
 ```
 npm install -g express-generator

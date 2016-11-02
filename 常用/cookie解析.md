@@ -22,3 +22,7 @@ res.setHeader('Set-Cookie', 'visit=3; Max-Age=60; Path=/; Expires=Wed, 02 Nov 20
 
 ## cookie-parser中间件使用
 
+使用很简单，简单的demo如下，也可以看[官方文档说明](https://github.com/expressjs/cookie-parser)。
+
+
+

@@ -5,8 +5,12 @@
 1、读取cookie：可以通过\`req.headers.cookie\`来获取HTTP请求携带的cookie。大概是类似下面的字符串
 
 ```
-uid=23ddjl3k2k; age=23; bid=0sdaadckx2;
+uid=23ddjl3k2k; visit=3; 
 ```
 
-2、设置cookie：
+2、设置cookie：通过\`Set-Cookie\`首部来达到设置cookie的目的。
+
+```
+res.setHeader('Set-Cookie', 'visit=3; Max-Age=60; Path=/; Expires=Wed, 02 Nov 2016 12:02:58 GMT');
+```
 

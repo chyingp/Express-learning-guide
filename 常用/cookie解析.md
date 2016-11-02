@@ -14,3 +14,5 @@ uid=23ddjl3k2k; visit=3;
 res.setHeader('Set-Cookie', 'visit=3; Max-Age=60; Path=/; Expires=Wed, 02 Nov 2016 12:02:58 GMT');
 ```
 
+问题在哪呢？很明显，无论是读取分析cookie的值，还是设置cookie，都不够方便。
+

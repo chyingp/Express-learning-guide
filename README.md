@@ -1,6 +1,6 @@
 # Express学习笔记
 
-Express使用笔记by @[程序猿小卡 ](https://github.com/chyingp)
+Express使用笔记by @[程序猿小卡 ](https://github.com/chyingp) 本书完整目录请[点击这里](SUMMARY.md)
 
 Express可以说是当前最流行的web应用开发框架，从github的关注数和npm每日的下载量就可以看出。
 
